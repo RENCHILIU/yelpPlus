@@ -1,0 +1,154 @@
+{
+	"id": "1f7755cf-1c84-0e91-a53d-1f1e61315021",
+	"name": "Yelp plus",
+	"description": "",
+	"order": [
+		"ba2bcde6-9c7f-ba71-0b93-873fd4880ba8",
+		"9042cf1a-20db-174d-0bff-d3dda4beff61",
+		"02523d21-40eb-35fd-af2b-51dc4679b1d2",
+		"548cc88a-29ea-302a-39e2-ec2f9de75cf5"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1512930959689,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "02523d21-40eb-35fd-af2b-51dc4679b1d2",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/recommendation?user_id=1111&lat=32.998874&lon=-96.886368",
+			"queryParams": [
+				{
+					"key": "user_id",
+					"value": "1111",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "lat",
+					"value": "32.998874",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "lon",
+					"value": "-96.886368",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1f7755cf-1c84-0e91-a53d-1f1e61315021",
+			"data": null,
+			"dataMode": "params",
+			"name": "get recommendation",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1512933957463,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "548cc88a-29ea-302a-39e2-ec2f9de75cf5",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/search?lat=32.9&lon=-96.886368",
+			"queryParams": [
+				{
+					"key": "lat",
+					"value": "32.9",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "lon",
+					"value": "-96.886368",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1f7755cf-1c84-0e91-a53d-1f1e61315021",
+			"data": null,
+			"dataMode": "params",
+			"name": "searchItems",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1512946922251,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9042cf1a-20db-174d-0bff-d3dda4beff61",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/history?user_id=1111",
+			"queryParams": [
+				{
+					"key": "user_id",
+					"value": "1111",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1f7755cf-1c84-0e91-a53d-1f1e61315021",
+			"data": null,
+			"dataMode": "params",
+			"name": "get favorite",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1512931047636,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ba2bcde6-9c7f-ba71-0b93-873fd4880ba8",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/history",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1512931014974,
+			"name": "add favorite",
+			"description": "",
+			"collectionId": "1f7755cf-1c84-0e91-a53d-1f1e61315021",
+			"responses": [],
+			"rawModeData": "{\n'user_id':'1111',\n'favorite':[\n'ambience-los-altos',\n'doppio-zero-mountain-view'\n]\n}"
+		}
+	]
+}
