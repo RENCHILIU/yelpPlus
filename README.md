@@ -26,10 +26,10 @@ Restaurant search and recommendation app + service based on Yelp API in order to
 
 ###### image preview：
 
-![previe](media/15129668942535/preview.jpg)
+![previe](https://lh3.googleusercontent.com/-T8VQs4UzpTc/Wi4NZ2nUgPI/AAAAAAAAOzE/7c636HAahBYafc0DxeTO-X2cwb1n1Q95QCHMYCw/I/preview.jpg)
 
 ###### DataBase:
-![Screen Shot 2017-12-10 at 3.00.44 P](media/15129668942535/Screen%20Shot%202017-12-10%20at%203.00.44%20PM.png)
+![Screen Shot 2017-12-10 at 3.00.44 P](https://lh3.googleusercontent.com/-xwdd1tIMT9E/Wi4NaMZVIoI/AAAAAAAAOzI/rFubeYyAtdcJEIp9gbx-fz1y2krq7IWsACHMYCw/I/Screen%2BShot%2B2017-12-10%2Bat%2B3.00.44%2BPM.png)
 
 
 ###### iOS version:
